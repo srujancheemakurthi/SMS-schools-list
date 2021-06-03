@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>
+       Data requirements
+</title>
+<style>
+body{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background:lightgoldenrodyellow;
+  padding: 0 10px;
+}
+form{
+    background:papayawhip;
+   margin:10px;
+   border:2px solid black;
+   border-radius:10px;
+   padding:10px;
+   width:400px;
+   height:460px;
+   text-align: center;
+   box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+              0 32px 64px -48px rgba(0,0,0,0.5);
+   
+}
+header{
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e6e6e6;
+  background:wheat;
+  border-radius:5px;
+  padding:5px;
+  text-align: center;
+}
+
+</style>
+</head>
+ <body>
+   <form method="POST" action="insert.php">
+   <header>Inserting Values into the Database</header>
+   <br>
+       
+   
+        <br>
+        <div>
+       <label>STATE :</label>	<input type="text" name="a" placeholder="Enter the state name.">
+        </div>
+        <br>
+        <div>
+          <label>School name:</label>	<input type="text" name="b" placeholder="Enter School name.">
+           </div>
+           <br>
+           <div>
+            <label>BOARD :</label>	 <input type="text" name="c" placeholder="Enter  your board">
+             </div>
+             <br>
+
+        <input type="submit"  value="Insert">
+        <br>
+   </form>
+  </body>
+</html>
